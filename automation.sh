@@ -2,7 +2,7 @@
 
 ## Configuration stuff
 
-RUN echo "@reboot service ssh start" > /var/spool/cron/crontabs/root
+echo "@reboot service ssh start" > /var/spool/cron/crontabs/root
 
 # edit bash
 

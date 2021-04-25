@@ -10,6 +10,7 @@ RUN apt-get -y update && apt-get -y upgrade && \
    iputils-ping \
    steghide \
    basez \
+   cron \
    bash-completion && \
    apt-get autoremove -y && \
    apt-get clean

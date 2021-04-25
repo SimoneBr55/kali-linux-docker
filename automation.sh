@@ -9,11 +9,11 @@ echo "@reboot service ssh start" > /var/spool/cron/crontabs/root
 ## software_temp stuff
 
 cd /tmp/
-tar xvfz software_temp.tar
+tar xvf software_temp.tar
 cd software_temp
 
 # pip2
-apt install -y python3 pcregrep libcre++-dev python-dev python2
+apt install -y python3 pcregrep libpcre++-dev python-dev python2
 python2 get-pip.py
 
 # VOLATILITY

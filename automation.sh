@@ -13,7 +13,7 @@ tar xvf software_temp.tar
 cd software_temp
 
 # pip2
-apt install -y python3 pcregrep libpcre++-dev python-dev python2
+apt-get install -y python3 pcregrep libpcre++-dev python-dev python2
 python2 get-pip.py
 
 # VOLATILITY
@@ -34,5 +34,5 @@ tar xvfz opt/Wordlists.tar.gz
 mv opt/Wordlists .
 tar xvfz opt/Tools.tar.gz
 mv opt/Tools .
-#rm -r opt
-#rm -r opt.tar
+rm -r opt
+rm -r opt.tar

@@ -32,5 +32,5 @@ cd /opt
 tar xvf opt.tar
 tar xvfz opt/Wordlists.tar.gz
 tar xvfz opt/Tools.tar.gz
-rm -r opt
-rm -r opt.tar
+#rm -r opt
+#rm -r opt.tar

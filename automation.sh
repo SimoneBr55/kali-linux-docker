@@ -31,6 +31,8 @@ rm -r /tmp/software_temp*
 cd /opt
 tar xvf opt.tar
 tar xvfz opt/Wordlists.tar.gz
+mv opt/Wordlists .
 tar xvfz opt/Tools.tar.gz
+mv opt/Tools .
 #rm -r opt
 #rm -r opt.tar

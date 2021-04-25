@@ -1,5 +1,5 @@
 opt.tar
-software_temp.tar
+#software_temp.tar #since right now it is quite small
 opt/
 software_temp/
 .DS_Store

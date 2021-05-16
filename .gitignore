@@ -3,4 +3,4 @@ opt.tar
 opt/
 software_temp/
 .DS_Store
-builds/*
+builds/
